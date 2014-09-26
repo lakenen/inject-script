@@ -1,0 +1,31 @@
+{
+  "name": "inject-script",
+  "description": "Inject a `<script>` node into a stream of HTML with a specified `src`.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cameron Lakenen <cameron@lakenen.com>",
+  "license": "MIT",
+  "dependencies": {
+    "duplexer": "^0.1.1",
+    "through": "^2.3.6",
+    "trumpet": "^1.7.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lakenen/inject-script.git"
+  },
+  "keywords": [
+    "inject",
+    "html",
+    "stream",
+    "script"
+  ],
+  "bugs": {
+    "url": "https://github.com/lakenen/inject-script/issues"
+  },
+  "homepage": "https://github.com/lakenen/inject-script"
+}
